@@ -1,1 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  background-color: #e4e5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main {
+  background-color: white;
+  padding: 40px 60px;
+  width: 380px;
+  border-radius: 20px;
+  text-align: center;
+}
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+h4 {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+h4 a {
+  text-decoration: none;
+}
+form p {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  justify-content: center;
+  margin: 20px 0;
+  font-weight: bold;
+}
+form p::before,
+form p::after {
+  content: "";
+  flex: 1;
+  height: 0.5px;
+  background: rgb(226, 222, 222);
+}
+
+.botonsocial {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+.botonsocial button {
+  border: 1.5px solid #ccc;
+  background-color: white;
+  border-radius: 15px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.botonsocial img {
+  width: 40px;
+  height: 42px;
+}
+.logogoogle {
+  flex: 1;
+  gap: 8px;
+}
+.logoFB {
+  width: 48px;
+  padding: 0;
+}
+label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  color: #aaaaaa;
+  margin: 10px 0 4px;
+}
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.login {
+  width: 100%;
+  background-color: #4644b6;
+  color: white;
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+form a {
+  display: block;
+  margin-top: 15px;
+  color: #3724b6;
+  text-decoration: none;
+  font-weight: bold;
+}
